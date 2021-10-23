@@ -3,41 +3,33 @@ body {
     margin: 5;
     font-size: 16px;
     display:grid;
-    grid-template-rows: 90px 2176px 72px ; 
-    /*grid-gap: 50px;*/
+    grid-template-rows: 90px 2213px 72px ; 
     padding: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
     font-size: 18px;
-    /*display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-    row-gap: 100px;*/
 }
+
 main{
-    background: white;}
+    background: white;
+}
+
 header{
     background: white;
     font-size: 18px;
 }
+
 footer{
     background: #4A5568;
     color: white;
 }
+
 nav a{
     color: #6b7280;
+    text-decoration: none;
 }
-nav a :hover{
+nav a:hover{
     color:#5A67D8;
 }
-    /*
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-    row-gap: 10px;
-}*/
-
 
 .container {
     margin: 0 auto;
@@ -49,41 +41,38 @@ nav a :hover{
     padding-bottom: 10px;
 }
 
-/*header {
-    background: #63B3ED;
-  
-}*/
 header h1{
-    float:left;
-    
+    float:left;   
 }
+
 li{
     float:right
 }
+
 li a{
     display:block;
     padding:8px;
 }
+
 ul{
     list-style-type: none;
 }
 
-
 .overview-hero-image {
     float:left;
-    /*background: white;*/
 }
+
 .overview-hero-text{
     float:right;
-    /*background: black;*/
     width:600px;
 }
+
 img{
     width:260px;
     height:260px;
 }
+
 .overview-hero .container{
-    
     height: 310px;
     display:flex;
     flex-direction: row;
@@ -91,9 +80,9 @@ img{
     align-items: center;
     column-gap: 50px;
 }
+
 .overview-hero{
-    background: #E2E8F0;
-    
+    background: #E2E8F0;   
 }
 
 .cards{
@@ -101,10 +90,9 @@ img{
     grid-template-columns: 300px 300px 300px;
     background-color: white;
     grid-gap: 20px;
-    padding: 10px;
-    
-    
+    padding: 10px;  
 }
+
 .cards .card{
     display:flex;
     flex-direction: column;
@@ -117,34 +105,36 @@ img{
     box-shadow:#6b7280 ;
     padding-top: 5px;
 }
+
 .card img{
     float:inline-start;
     justify-content: flex-start;
 }
+
 .card-body{
-    /*background: #5A67D8;*/
     padding-left:20px;
     padding-right: 10px;
 }
+
 .card h3{
-    
     color:#48BB78;
     font-size: 21px;
 }
+
 .learn-about .container{
     height:650px;
-
 }
 
 .learn-about{
-    
     height:650px;
     padding-bottom: 10px;
 }
+
 .learn-about h2{
     color: #48BB78;
     font-size: 24px;
 }
+
 .testing{
     background: #4A5568;
     color: white;
@@ -152,78 +142,93 @@ img{
 }
 
 .testing .container{
-    
     height:248px;
-    /*padding-top: 10px;
-    padding-bottom: 12px;*/
     display:flex;
-    
     align-items:center;
     flex-direction: row;
     column-gap: 150px;
 }
+
 .testing-desciption{
     float:left;
-
-    
     width: 600px;
-    height 400px;
-    
+    height: 200px;
 }
+
 .cta{
     float:right; 
     background: #48BB78;
     width:150px;
     height: 50px;  
     text-align: center;    
-    padding-top: 10px; 
+    padding-top: 15px; 
     border-radius: 5px; 
 }
 
+.cta a{
+    color:white;
+    text-decoration: none;
 }
-.stories{
-    background: red;
-}
+
 .stories h2 {
     color: #5A67D8;
 }
+
 .stories a{
     color:#5A67D8;
 }
+
 .stories h3{
     font-size: 18px;
 }
+
 .stories .container img{
     border-radius: 50%;
     height:250px;
     float:left;
 }
+
 .stories .container{
     display:flex;
     flex-direction: column;
     row-gap:50px;
     padding-bottom: 50px;
 }
+
 .article-body{
     float:right;
     width:600px;
 }
+
 .newsletter{
     background: #48BB78;
     color: white;
-
 }
+
 .newsletter .container{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
 }
+
 form{
     display:flex;
     flex-direction: row; 
     column-gap:20px;
     justify-content:center;
 }
+form input{
+    height: 50px; 
+    width:300px;
+    border: 0px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
 form .btn{
     background: #5A67D8;
+    color:white;
+    width:150px;
+    height: 50px; 
+    border-radius: 5px; 
+    border: 0px;
 }
